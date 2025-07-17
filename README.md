@@ -30,3 +30,7 @@ The rapid proliferation of IoT devices has intensified the risk of Distributed D
 | F1 Score     | 0.9986  |
 | AUC-ROC      | 0.9993  |
 | Inference Time | 0.0101 ms |
+
+## Dataset
+
+This project uses a subset of the [CSE-CIC-IDS2018 dataset] (https://www.kaggle.com/datasets/solarmainframe/ids-intrusion-csv). Specifically, we worked with the file `02-20-2018.csv`, which contains both benign and DDoS traffic samples. The data was preprocessed and passed through an autoencoder for dimensionality reduction prior to model training.
